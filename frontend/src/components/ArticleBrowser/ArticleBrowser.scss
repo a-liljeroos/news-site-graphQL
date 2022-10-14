@@ -1,0 +1,38 @@
+.article-browser {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.article-box-standard {
+  border-bottom: 1px solid rgb(105, 105, 105);
+  padding-bottom: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgb(243, 243, 243);
+}
+
+.article-box-title {
+  text-align: left;
+  padding-inline: 15px;
+  letter-spacing: -1px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.article-box-info {
+  text-align: left;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  color: rgb(94, 94, 94);
+}
+
+.article-box-image {
+  width: 100%;
+}
+
+a {
+  color: black;
+}

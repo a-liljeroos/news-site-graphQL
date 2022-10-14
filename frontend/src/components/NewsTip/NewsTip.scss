@@ -1,0 +1,62 @@
+.newstip-container {
+  padding: 15px;
+
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 620px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: rgb(238, 238, 238);
+  border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+.newstip-cameraicon {
+  background-color: rgb(226, 226, 226);
+  padding: 15px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 5px solid white;
+  transform: translateY(-40px);
+}
+
+.newstip-title {
+  font-size: 30px;
+  margin-top: -30px;
+}
+
+.newstip-para {
+  font-size: 20px;
+}
+
+.newstip-list {
+  padding: 20px;
+  li {
+    padding: 5px;
+    font-size: 20px;
+  }
+}
+
+.newstip-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.newstip-form-label {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.button-group {
+  padding: 100px 0px 80px 0px;
+  display: flex;
+  height: 100px;
+  justify-content: space-evenly;
+  align-items: center;
+}

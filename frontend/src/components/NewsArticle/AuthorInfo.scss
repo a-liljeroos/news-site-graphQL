@@ -1,0 +1,19 @@
+.article-author-info {
+  display: flex;
+  align-items: center;
+  padding-block: 15px;
+  padding-inline: 15px;
+}
+
+.author-image {
+  height: 80px;
+  width: 80px;
+  background-color: gainsboro;
+  border-radius: 50%;
+}
+
+.article-author-data {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}

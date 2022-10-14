@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+.zalanna-card {
+  position: relative;
+}
+
+.scrollbutton-left {
+  background-color: rgb(197, 197, 197);
+  padding: 0;
+  height: initial;
+  padding: 8px 7px 5px 5px;
+  position: absolute;
+  left: 10px;
+  top: 45%;
+}
+.scrollbutton-right {
+  background-color: rgb(197, 197, 197);
+  padding: 0;
+  height: initial;
+  padding: 8px 5px 5px 7px;
+
+  position: absolute;
+  right: 10px;
+  top: 45%;
+}
+
+.card-advert-upper-box {
+  display: flex;
+
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.company-text {
+  transform: translate(10px, 10px) skewX(-8deg);
+  font-family: "Lobster", cursive;
+  font-size: 35px;
+  color: #ff6900;
+  padding-inline: 10px;
+  background-color: rgb(223, 223, 223);
+}
+.company-message {
+  display: flex;
+  margin-right: 15px;
+}
+
+.company-message-text {
+  font-style: italic;
+  font-size: 23px;
+}
+
+.card-advert-browser {
+  display: flex;
+  gap: 10px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.card-advert-browser::-webkit-scrollbar {
+  display: none;
+}
+
+.card-advert {
+  width: 200px;
+  background-color: rgb(243, 243, 243);
+  padding-bottom: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.zalanna-img {
+  height: 260px;
+  cursor: pointer;
+}
+
+.card-advert-title {
+  font-size: 15px;
+
+  text-align: left;
+}
+.card-advert-text {
+  font-size: 10px;
+  text-align: left;
+}

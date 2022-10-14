@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.ad {
+  font-family: "PT Sans", sans-serif;
+  margin-top: 15px;
+  border-bottom: 1px solid rgb(27, 27, 27);
+  max-width: 620px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.box-t {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.red {
+  background-color: #ff3d31;
+}
+.ad-name {
+  font-family: "PT Sans", sans-serif;
+  margin-right: auto;
+  margin-left: 8px;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  color: rgb(235, 235, 235);
+  letter-spacing: 1px;
+}
+
+.adtext {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-right: 10px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: rgb(235, 235, 235);
+}
+.adicon {
+  transform: translateY(4px);
+}
+.box-i {
+  display: flex;
+
+  justify-content: center;
+  padding: 15px;
+  gap: 10px;
+}
+
+.adhouse {
+  width: 50%;
+  cursor: pointer;
+}
+
+.adimg {
+  width: 100%;
+}

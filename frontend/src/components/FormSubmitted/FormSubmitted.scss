@@ -1,0 +1,43 @@
+.form-sub {
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(26, 26, 26, 0.267);
+  backdrop-filter: blur(1px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-sub-box {
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 6px solid rgb(160, 160, 160);
+}
+
+.form-submit-count {
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  font-weight: 800;
+
+  animation: number 1s ease-in-out infinite;
+}
+
+@keyframes number {
+  from {
+    transform: scale(1.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}

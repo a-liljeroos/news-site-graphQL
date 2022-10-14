@@ -1,0 +1,35 @@
+nav {
+  background-color: rgb(221, 43, 43);
+  height: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.nav-button-group {
+  margin: 0 auto;
+  max-width: 620px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+.nav-links-item {
+  padding-block: 3px;
+  margin-top: 8px;
+  margin-left: 15px;
+  border-radius: 3px;
+  color: white;
+  transition: 30ms;
+  user-select: none;
+}
+
+.nav-links-item.active {
+  border-bottom: 3px solid white;
+}
+
+.nav-links-item:hover {
+  cursor: pointer;
+  border-bottom: 3px solid rgb(221, 220, 220);
+}
